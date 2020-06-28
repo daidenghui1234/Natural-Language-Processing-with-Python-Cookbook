@@ -5,6 +5,7 @@
 # @Email   : 3276336032@qq.com
 # @File    : reuters.py
 # @Software: PyCharm
+# @Description: 访问reuters语句库
 
 # NLTK数据库集中访问路透社语料库的特定方式
 from nltk.corpus import reuters
