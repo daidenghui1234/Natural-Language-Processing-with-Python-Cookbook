@@ -5,7 +5,7 @@
 # @Email      : 3276336032@qq.com
 # @File       : webtext.py
 # @Software   : PyCharm
-# @Description: 方法描述,必填
+# @Description: 对webtext语料库进行访问
 
 # 导入所需库打印组织文件名称
 import nltk
