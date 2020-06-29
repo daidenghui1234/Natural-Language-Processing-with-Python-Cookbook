@@ -15,7 +15,7 @@ reader = CategorizedBracketParseCorpusReader(r'F:/Downloads/NLP文件/mix20_rand
 print(reader.categories())
 print(reader.fileids())
 
-negFiles = reader.fileids(categories='neg')
+negFiles = reader.fileids(categories=['neg'])
 
 fileN = negFiles[randint(0, len(negFiles)-1)]
 print(fileN)
