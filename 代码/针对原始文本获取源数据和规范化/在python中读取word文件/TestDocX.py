@@ -22,6 +22,6 @@ print('Number of run in paragraphs 1 :', len(doc.paragraphs[0].runs))
 for idx, run in enumerate(doc.paragraphs[0].runs):
     print('Run %s : %s' % (idx, run.text))
 
-print('is Run 0 underlined :', doc.paragraphs[0].runs[5].underline)
-print('is Run 2 bold :', doc.paragraphs[0].runs[1].bold)
-print('is Run 7 italic :', doc.paragraphs[0].runs[3].italic)
+print('is Run 5 underlined :', doc.paragraphs[0].runs[5].underline)
+print('is Run 1 bold :', doc.paragraphs[0].runs[1].bold)
+print('is Run 3 italic :', doc.paragraphs[0].runs[3].italic)
