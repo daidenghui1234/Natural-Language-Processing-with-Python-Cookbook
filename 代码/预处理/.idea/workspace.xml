@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10d3771-28ed-4f45-bb59-01ee79886cab" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../针对原始文本获取源数据和规范化/读取RSS信息源内容/rssReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/预处理.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLTK内置分词库/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLTK词干提取/stemmers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +34,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.stemmers">
+    <configuration name="stemmers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="预处理" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLTK词干提取" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLTK词干提取/stemmers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tokenizer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="预处理" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stemmers" />
         <item itemvalue="Python.tokenizer" />
       </list>
     </recent_temporary>
@@ -79,36 +96,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594460159883</updated>
-      <workItem from="1594460162265" duration="630000" />
+      <workItem from="1594460162265" duration="1513000" />
     </task>
+    <task id="LOCAL-00001" summary="分词">
+      <created>1594460975956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594460975956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="分词" />
+    <option name="LAST_COMMIT_MESSAGE" value="分词" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594460933568">
+    <state x="376" y="4" key="CommitChangelistDialog2" timestamp="1594460973976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594460933568" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1594460933568">
+    <state x="376" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594460973976" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594461507247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594460933568" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1594460933568">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594461507247" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1594461507247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594460933568" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1594460933568">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594461507247" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1594461507246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594460933568" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594461507246" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1594461507247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594461507247" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594460978997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594460978997" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594460704530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594460704530" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$stemmers.coverage" NAME="stemmers Coverage Results" MODIFIED="1594461507238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLTK词干提取" />
     <SUITE FILE_PATH="coverage/$tokenizer.coverage" NAME="tokenizer Coverage Results" MODIFIED="1594460933558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLTK内置分词库" />
   </component>
 </project>
